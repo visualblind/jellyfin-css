@@ -1,0 +1,303 @@
+/* FONT STYLE */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap);
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3 {
+   font-family: 'Open Sans', sans-serif; text-transform: uppercase;
+}
+h2, h3 {
+   letter-spacing: .4px;
+}
+.emby-tab-button {
+   font-family: 'Open Sans', sans-serif !important;
+   text-transform: uppercase;
+   letter-spacing: .5px;
+}
+.emby-tab-button:active {
+   font-weight: 700 !important;
+}
+.emby-tab-button-active {
+   font-weight: 700 !important;
+}
+.emby-button {
+   text-transform: uppercase;
+}
+.button-link {
+   text-transform: uppercase;
+   color: #00a4dc !important;
+}
+.button-link:hover {   
+   color: #e0e0e0 !important;
+   text-decoration-line: none; !important
+}
+p.disclaimer {
+  font-weight: 700 !important;
+  color: beige;
+}
+
+/* ADMIN DASHBOARD */
+span.navMenuOptionText {
+   white-space: pre-wrap;
+   text-align: justify;
+}
+.mainDrawer {
+   background: #333333 !important;
+}
+.drawer-open {
+   -webkit-box-shadow: 2px 0 12px 
+   box-shadow: 2px 0 12px
+}
+.checkboxLabel {
+   text-transform: uppercase;
+}
+.checkboxListLabel, .inputLabel, .inputLabelUnfocused, .textareaLabelUnfocused {
+   text-transform: uppercase;
+   font-weight: 600;
+}
+
+.textareaLabel {
+   text-transform: uppercase;
+}
+.selectLabel {
+   text-transform: uppercase;
+}
+.fieldDescription {
+   font-style: oblique;
+}
+.paperList, .visualCardBox {
+   border: 2px solid !important;
+}
+div.focuscontainer.dialog.formDialog.align-items-center.justify-content-center.dialog-fullscreen-lowres.centeredDialog.opened {
+   border: 2px solid !important;
+}
+div.focuscontainer.dialog.formDialog.align-items-center.justify-items-center.dialog-fullscreen-lowres.centeredDialog.opened {
+   border: 2px solid !important;
+}
+.formDialogFooterItem-autosize {
+   padding-left: 1em !important;
+   padding-right: 1em !important;
+}
+.emby-input:focus, .emby-textarea:focus {
+   box-shadow: 0 0 10px 0;
+}
+table.tblApiKeys.detailTable {
+   text-transform: uppercase;
+}
+/* METADATA MANAGER */
+
+/* HEADER STYLE */
+.skinHeader-withBackground {
+   border-bottom: transparent !important;
+   -webkit-box-shadow: 0 0.25em 0.29em 0 rgba(0,0,0,.90) !important;
+   box-shadow: 0 0.25em 0.29em 0 rgba(0,0,0,.90) !important;
+}
+.skinHeader.semiTransparent {
+   background: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.9)),to(rgba(0,0,0,0.3))) !important;
+   background: -webkit-linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,0.3)) !important;
+   background: -o-linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,0.3)) !important;
+   background: linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,0.3)) !important;
+   border-bottom: none !important;
+}
+
+/* BACKGROUND STYLE */
+/* .backgroundContainer, .dialog, html {
+   background-color: #000 !important;
+} */
+.backgroundContainer.withBackdrop {
+    background-color: rgba(0, 0, 0, .70) !important;
+}
+.cardContent-shadow, .defaultCardBackground0 {
+   background-color: transparent !important;
+}
+.actionSheetContent {
+   border: 1px solid;
+}
+.appfooter {
+   border-top: 1px solid rgba(255,255,255,.1) !important;
+}
+.dialog-small {
+   border: 2px solid !important;
+}
+.selectionCommandsPanel {
+   background: #cc3333 !important;
+}
+div.dialog {
+   padding: 0 .2em .2em 0;
+}
+
+/* UI BUTTON STYLE */
+
+.emby-select-withcolor {
+   background: transparent !important;
+   border: .07em solid !important;
+}
+.fab, .raised {
+   border: 1px solid #00a4dc !important;
+   transition: 0.3s;
+}
+.fab:hover, .raised:hover {
+   background: #0073a8 !important;
+   border-color: #00a4dc !important;
+}
+.emby-input-iconbutton {
+   transition: 0.3s;
+}
+i.md-icon.playstatebutton-icon-played {
+   transition: 0.3s;
+}
+button.listItemButton.paper-icon-button-light.emby-button {
+   transition: 0.3s;
+}
+i.md-icon.ratingbutton-icon-withrating {
+   transition: 0.3s;
+}
+button.listItemButton.paper-icon-button-light.emby-button.ratingbutton-withrating {
+   transition: 0.3s;
+}
+#popupAddTrigger button {
+   font-size: 1em;
+   text-transform: uppercase;
+   text-decoration: none;
+   font-weight: 600;
+   line-height: 1.35;
+   letter-spacing: .5px;
+   margin: 0 .29em;
+   padding: .86em 1em;
+   border: 1px solid !important;
+   border-radius: .2em;
+   cursor: pointer;
+   transition: 0.3s;
+}
+
+/* PROGRESS RINGS */
+div.progressring {
+   right: 30px;
+}
+
+/* EMBY BRANDING */
+.pageTitleWithDefaultLogo {
+    background-image: url("/web/img/travisflix_logo.png") !important;
+}
+
+/* CAST & CREW THUMBNAILS */
+#castContent .card.portraitCard.personCard.card-hoverable.card-nofocustransform.card-withuserdata {
+   width: 3.7cm;
+   font-size: 95% !important;
+}
+#castContent .card.portraitCard.personCard.card-nofocustransform.card-withuserdata {
+   width: 3.7cm;
+   font-size: 95% !important;
+}
+#castContent .card.overflowPortraitCard.personCard.card-nofocustransform.card-withuserdata {
+   width: 3.7cm;
+   font-size: 95% !important;
+}
+#castContent .cardContent-button.cardImageContainer.coveredImage.cardContent.cardContent-shadow.itemAction.lazy {
+   background-size: cover !important;
+   border-radius: 1.7cm;
+}
+#castContent .cardScalable {
+   width: 3.1cm !important;
+   height: 3.1cm !important;
+   border-radius: 1.7cm;
+}
+#castContent .cardOverlayContainer.itemAction {
+   border-radius: 1.7cm;
+}
+#castContent .cardOverlayButton-br {
+   bottom: 4%;
+   right: 15%;
+   width: 70%;
+}
+#castContent .cardOverlayButton.cardOverlayButton-hover.itemAction.paper-icon-button-light {
+   width: 50%;
+   vertical-align: middle;
+}
+#castContent .cardOverlayButton.cardOverlayButton-hover.itemAction.emby-button {
+   width: 50%;
+   vertical-align: middle;
+}
+
+/* LOGIN FORM */
+#loginPage .readOnlyContent, #loginPage form {
+   max-width: 28em;
+}
+#loginPage h1 {
+   display: none;
+}
+ #loginPage .padded-left.padded-right.padded-bottom-page {
+   margin-top: 1%;
+} 
+#loginPage .raised.cancel.block.btnManual.emby-button {
+   display: none;
+}
+ #loginPage .raised.cancel.block.btnForgotPassword.emby-button {
+    display: none; 
+}
+#loginPage {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+/* background-image: url("/web/img/6-1.jpg");
+    background-image: url("/web/img/Impressive_216.jpg");
+    background-image: url("/web/img/416_061.jpg"); */
+    background-image: url("/web/img/53.jpg");
+    background-repeat: no-repeat;
+    background-position:  center;
+
+    width: 100%;
+    overflow-y: scroll;
+    background-attachment: fixed;
+    background-size: cover;
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+/* PLAYBACK REPORTING PLUGIN */
+table#activity_report_table thead {
+   color: rgba(255, 255, 255, 0.87) !important;
+   background: #cc3333 !important;
+   text-transform: uppercase;
+}
+#user_usage_report_table thead {
+   text-transform: uppercase;
+}
+
+#user_usage_report_results button {
+   border: 1px solid !important;
+   border-radius: .2em;
+   cursor: pointer;
+   transition: 0.3s;
+}
+
+/* Make Top Menu Default Color On All Themes and Slightly Transparent 
+.skinHeader-withBackground { background-color: #222 !important; -webkit-box-shadow: none !important; opacity: 0.80;}*/
+
+/* Make Top Menu Completely Transparent 
+.skinHeader  {background-color: transparent !important; opacity: 0 !important;} */
+.skinHeader-withBackground {background: transparent !important; -webkit-box-shadow: none !important; opacity: 1;}
+div.skinHeader.skinHeader-withBackground.headroom.noHeaderRight {display:none; !important }
+
+/*Remove Section Title Header and Edit menu*/
+#homeTab div.section0 div.sectionTitleContainer.sectionTitleContainer-cards {visibility: hidden; }
+
+/* My Media Image Size */
+.smallBackdropCard {
+  width: 16.0% !important; }
+
+/* Video Title Text */
+button.itemAction.textActionButton.cardTextActionButton {
+    font-weight: 600;
+}
+
+#loginPage .content-primary, .padded-bottom-page, .page, .pageWithAbsoluteTabs .pageTabContent {
+    padding-bottom: 0 !important;
+}
+
+.cardText > .textActionButton {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
