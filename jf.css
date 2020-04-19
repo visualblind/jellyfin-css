@@ -33,7 +33,7 @@ h2, h3 {
 }
 p.disclaimer {
   font-weight: 700 !important;
-  color: beige;
+  color: #ffeb3b;
 }
 
 /* ADMIN DASHBOARD */
@@ -242,7 +242,7 @@ div.progressring {
 /* background-image: url("/web/img/6-1.jpg");
     background-image: url("/web/img/Impressive_216.jpg");
     background-image: url("/web/img/416_061.jpg"); */
-    background-image: url("/web/img/53.jpg");
+    background-image: url("/web/img/palm-158678.jpg");
     background-repeat: no-repeat;
     background-position:  center;
 
