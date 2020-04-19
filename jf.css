@@ -33,6 +33,7 @@ h2, h3 {
 }
 p.disclaimer {
   font-weight: 700 !important;
+  margin-top: -2em !important;
   color: #ffeb3b;
 }
 
@@ -219,22 +220,19 @@ div.progressring {
    vertical-align: middle;
 }
 
-/* LOGIN FORM */
-#loginPage .readOnlyContent, #loginPage form {
-   max-width: 28em;
-}
-#loginPage h1 {
-   display: none;
-}
- #loginPage .padded-left.padded-right.padded-bottom-page {
-   margin-top: 1%;
-} 
-#loginPage .raised.cancel.block.btnManual.emby-button {
-   display: none;
-}
- #loginPage .raised.cancel.block.btnForgotPassword.emby-button {
-    display: none; 
-}
+/* Login Form Width */
+#loginPage .readOnlyContent, #loginPage form {max-width: 24em;}
+
+/* Hide "please login" text, margin is to prevent login form moving too far up */
+#loginPage h1 {display: none;}
+
+#loginPage .padded-left.padded-right.padded-bottom-page {margin-top: 50px;}
+
+/* Hide "manual" and "forgot" buttons */
+#loginPage .raised.cancel.block.btnManual.emby-button {display: none;}
+
+#loginPage .raised.cancel.block.btnForgotPassword.emby-button {display: none;}
+
 #loginPage {
     position: absolute;
     margin-left: auto;
@@ -278,10 +276,10 @@ table#activity_report_table thead {
 /* Make Top Menu Completely Transparent 
 .skinHeader  {background-color: transparent !important; opacity: 0 !important;} */
 .skinHeader-withBackground {background: transparent !important; -webkit-box-shadow: none !important; opacity: 1;}
-div.skinHeader.skinHeader-withBackground.headroom.noHeaderRight {display:none; !important }
+div.skinHeader.skinHeader-withBackground.headroom.noHeaderRight {display:none; !important}
 
 /*Remove Section Title Header and Edit menu*/
-#homeTab div.section0 div.sectionTitleContainer.sectionTitleContainer-cards {visibility: hidden; }
+#homeTab div.section0 div.sectionTitleContainer.sectionTitleContainer-cards {visibility: hidden;}
 
 /* My Media Image Size */
 .smallBackdropCard {
@@ -301,3 +299,14 @@ button.itemAction.textActionButton.cardTextActionButton {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
+/* Make watched icon dark and transparent */
+.playedIndicator {background: #00000058;}
+
+/* This modifies the colors of the cast, search and user buttons in the top right. */
+.headerRight { color: yellow; }
+
+/* Widen the default scrollbar */
+.layout-desktop ::-webkit-scrollbar {width: 1em;}
+
+::-webkit-scrollbar-thumb:vertical {background: center no-repeat #afafaf;}
