@@ -269,3 +269,7 @@ button.itemAction.textActionButton.cardTextActionButton {font-weight: 600;}
 .actionSheetContent {border: 1px dotted;}
 .dialog {background-color: #101010cf;}
 .actionsheet-not-fullscreen {max-height: 70%;}
+
+/* MOVE DETAILLOGO AND ITEM DESCRIPTION HIGHER */
+.itemBackdrop {height: 45vh;}
+.detailLogo {top: 5vh;}
