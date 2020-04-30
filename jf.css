@@ -37,6 +37,9 @@ p.disclaimer {
   color: #ffeb3b;
 }
 
+/* TEXTBOX LABELS */
+.checkboxListLabel, .inputLabel, .inputLabelUnfocused, .paperListLabel, .textareaLabelUnfocused {color: rgb(255, 255, 255);}
+
 /* ADMIN DASHBOARD */
 span.navMenuOptionText {
    white-space: pre-wrap;
@@ -179,7 +182,7 @@ div.progressring {right: 30px;}
     position: absolute;
     margin-left: auto;
     margin-right: auto;
-    background-image: url("/web/img/palm-158678.jpg");
+    background-image: url("/web/img/palms-01-1.jpg");
     background-repeat: no-repeat;
     background-position:  center;
 
@@ -268,7 +271,7 @@ button.itemAction.textActionButton.cardTextActionButton {font-weight: 600;}
 /* RIGHT-CLICK CONTEXT MENU */
 .actionSheetContent {border: 1px dotted;}
 .dialog {background-color: #101010cf;}
-.actionsheet-not-fullscreen {max-height: 70%;}
+.actionsheet-not-fullscreen {max-height: 80%;}
 
 /* MOVE DETAILLOGO AND ITEM DESCRIPTION HIGHER */
 .itemBackdrop {height: 45vh;}
