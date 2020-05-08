@@ -37,8 +37,8 @@ p.disclaimer {
   color: #ffeb3b;
 }
 
-/* TEXTBOX LABELS */
-.checkboxListLabel, .inputLabel, .inputLabelUnfocused, .paperListLabel, .textareaLabelUnfocused {color: rgb(255, 255, 255);}
+/* TEXTBOX LABELS
+.checkboxListLabel, .inputLabel, .inputLabelUnfocused, .paperListLabel, .textareaLabelUnfocused {color: rgb(255, 255, 255);} */
 
 /* ADMIN DASHBOARD */
 span.navMenuOptionText {
@@ -182,7 +182,8 @@ div.progressring {right: 30px;}
     position: absolute;
     margin-left: auto;
     margin-right: auto;
-    background-image: url("/web/img/palms-01-1.jpg");
+/*    background-image: url("/web/img/cuban-beach-1920x1280.jpg"); */
+    background-image: url("/web/img/The-Mandalorian-1720851.jpg");
     background-repeat: no-repeat;
     background-position:  center;
 
@@ -194,6 +195,9 @@ div.progressring {right: 30px;}
     -moz-background-size: cover;
     -o-background-size: cover;
 }
+
+/* TEXT INPUT FIELD BORDER COLOR */
+.emby-input, .emby-textarea {border: 0.16em solid #444444;}
 
 /* PLAYBACK REPORTING PLUGIN */
 table#activity_report_table thead {
