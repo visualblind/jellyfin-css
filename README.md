@@ -1,16 +1,16 @@
 # jellyfin-css
-Original creator /u/EdgeMentality 
-See:
-https://www.reddit.com/r/jellyfin/comments/bvnt65/sharing_even_more_custom_css_and_some_fixes_to/
+Original creator [/u/EdgeMentality](https://www.reddit.com/r/jellyfin/comments/bvnt65/sharing_even_more_custom_css_and_some_fixes_to/)
 
-Installation:
+See my [jellyfin-stuff](https://github.com/visualblind/jellyfin-stuff) repo for a more comprehensive collection of methods to customize the Jellyfin web interface.
+
+## Installation:
 add this to the custom css section
 
 ```
 @import url('https://raw.githubusercontent.com/visualblind/jellyfin-css/master/jf.css');
 ```
 
-# Quote:
+### Quote:
 
 I posted some customizations to the web UI using the custom CSS field. You can find that post here.
 I am posting all the same stuff here, below the new stuff, so check them for some new fixes.
